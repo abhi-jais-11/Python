@@ -8,18 +8,18 @@ Inner funtion
 def outer(name):
     greet=f"Welcome {name}"
     def inner():
-        return greet
-    return inner()
+        print(greet)
+    inner()
 
-print(outer("Abhinav"))
+outer("Abhinav")
 
 
 def outer_func(n,m):
     def inner_fun(m):
-        return n+m
-    return inner_fun(m)
+        print(n+m)
+    inner_fun(m)
 
-print(outer_func(10,20))
+outer_func(10,20)
 
 
 

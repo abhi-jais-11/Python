@@ -2,5 +2,10 @@
 
 ## 📖 Topics List 
 
+- **Basic**
+- **Conditional**
+- **Function**
+- **Module**
+- **Data Structure** 
 - **Class and Object** 
 - **Programs** 

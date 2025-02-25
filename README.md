@@ -4,6 +4,7 @@
 
 - **Basic**
 - **Conditional**
+- **Loop** 
 - **Function**
 - **Module**
 - **Data Structure** 

@@ -18,7 +18,7 @@ class Self:
         print(self.greet)
         
         
-#clling the method using the object
+#calling the method using the object
 
 self_obj=Self()
 self_obj.Self("Hello Welcome To The Self.")
@@ -27,12 +27,12 @@ self_obj.Self("Hello Welcome To The Self.")
 ''' 
         
 Is self in Python a Keyword?
-    No, ‘ self ‘ is not a keyword in Python. Self is just a parameter name used in instance methods to refer to the instance itself.
+    No, ‘ self ‘ is not a keyword in Python. 
+    Self is just a parameter name used in instance methods to refer to the instance itself.
         
 '''
 
 #if we are not using self inside the metod then the first argumets of the method treate as self
-
 # we can write any name at the place of the self but recomnded self 
 
 

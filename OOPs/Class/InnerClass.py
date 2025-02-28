@@ -22,7 +22,7 @@ class OuterClass:
         def __init__(self):
             print("Inner  Class Constructor :")
         
-        def outer_method(self):
+        def inner_method(self):
             print("Inner Class Method:")
         
 

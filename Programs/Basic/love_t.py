@@ -1,5 +1,4 @@
-import turtle
-import turtle as trt 
+import turtle as t 
 from turtle import *
 import time
 win=Screen()
@@ -8,7 +7,7 @@ win.title('My Cute Baby')
 time.sleep(1)
 win.bgcolor('white')
 time.sleep(1)
-a=trt.Turtle()
+a=t.Turtle()
 a.color('blue','red')
 a.shape('arrow')
 a.penup()
@@ -45,7 +44,7 @@ a.color('white','yellow')
 heart()
 
 
-pen=trt.Turtle('classic')
+pen=t.Turtle('classic')
 def txt():
 	pen.up()
 	pen.setpos(-600,95)

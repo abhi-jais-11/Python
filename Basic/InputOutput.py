@@ -22,7 +22,7 @@ print(" programming language");
 print('A', 'J', sep='')
 
 # for formatting a date
-print('09', '12', '2016', sep='-')
+print('09', '12', '2016',sep='-')
 # another example
 print('Abhi121', 'gmail.com', sep='@')
 

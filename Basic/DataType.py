@@ -1,6 +1,7 @@
 '''
-Built-in Data Types
+Built-in Data Types:
     -Python has the following data types built-in by default, in these categories:
+    
     - Text Type:	str
     - Numeric Types:	int, float, complex
     - Sequence Types:	list, tuple, range
@@ -24,6 +25,7 @@ x = {"name" : "John", "age" : 36}	 #dict
 x = {"apple", "banana", "cherry"}	 #set 
 x = frozenset({"apple", "banana", "cherry"})	#frosenset
 x = True	#bool	
+
 x = b"Hello"	#bytes	
 x = bytearray(5)	#bytearray	
 x = memoryview(bytes(5))	#memoryview	

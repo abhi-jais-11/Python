@@ -1,28 +1,65 @@
-
-#opening file 
+import csv
+import json
 
 '''
-Reading a File
-    Reading a file can be achieved by file.read() which reads the entire content of the file.
-    After reading the file we can close the file using file.close() which closes the file after reading it, which is necessary to free up system resources.
+Ther are the three way to read the file .
+
+    -> using read() --> it read the entire file and return it 
+    -> using readline() --> it read only single line of the file and return it
+    -> using the readlines()--> it read all line of the file and return as a list.
+
+
 '''
-file =open("file.txt","r")
-content=file.read()
-print(content)
-file.close()
+
+#using read.
+print("------- --------With read()-----------------")
+with open("demo.txt","r", encoding="utf-8") as file_read:
+    text=file_read.read()
+    print(text)
+print('--------------------------------------------')
+print()
+#using readline
+print("------- --------With readline()-----------------")
+with open("demo.txt","r", encoding="utf-8") as file_readline:
+    text=file_readline.readline()
+    print(text)
+print('--------------------------------------------')
+print()
+#using readlines
+print("---------------With readline()-----------------")
+with open("demo.txt","r", encoding="utf-8") as file_readlines:
+    text=file_readlines.readlines()
+    print(text)
+print('--------------------------------------------')
+
+#using the for loop
+print("------- --------With readline()-----------------")
+with open("demo.txt","r", encoding="utf-8") as file_readline:
+    for i in file_readline:
+        print(i)
+print('--------------------------------------------')
+print()
 
 
-#reading file in binary mode
-
-file =open("file.txt","rb")
-content=file.read()
-print(content)
-file.close()
-
-print("-------------------------------------- ")
-#using with statement  we don't need to close it ,auto handle by with .
+#while
+with open("demo.txt","r", encoding="utf-8") as file_readline:
+    line=file_readline.readline()
+    while line:
+        print(line.strip())
+        line=file_readline.readline()
+print('==================================')
 
 
-with open("file.txt","r") as file:
-    content=file.read()
-    print(content)
+
+
+#reading the json file and csv file 
+
+with open("data.csv","r",  encoding="utf-8") as csv_file:
+    data=csv.reader(csv_file)
+    for i in data:
+        print(i)
+print("==============================================")
+
+with open("data.json","r", encoding="utf-8") as json_file:
+    data=json.load(json_file)
+    print(data)

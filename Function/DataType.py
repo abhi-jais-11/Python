@@ -23,3 +23,7 @@ def Sum(a:int , b:int)->int:
 
 print(Sum(10,20))
 # print(Sum("20","29")) generate an error
+
+
+
+

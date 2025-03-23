@@ -41,8 +41,8 @@ def exception_handling(a,b):
     try:
         res=a/b
         
-    except ZeroDivisionError:
-        print("You can't divide by zero!")
+    except ZeroDivisionError as e:
+        print(f"{e} You can't divide by zero!")
     
     else:
         print("Division Of the Numbers is :",res)

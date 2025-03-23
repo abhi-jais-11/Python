@@ -1,0 +1,22 @@
+import math 
+
+
+print()
+print(f"The Value of the 10 PI:{math.pi*10}")
+print()
+print(f"The Power {10} is {2} :{math.pow(10,2)}")
+print()
+print(f"Sqaure Root of {10} is:{math.sqrt(10)}")
+print()
+print(f"Cube root of {1000} is : {1000**(1/3)}")
+print()
+print(f"The sum of the List [1-10] is :{math.fsum([1,2,3,4,5,6,7,8,9,10])}")
+print()
+print(f"The floor Division of the {5} and {2} is : {math.floor(5/2)}")
+print()
+print(f"The factorial of the {5} is : {math.factorial(5)}")
+print()
+print(f"The absolut value of {-10} is : {math.fabs(-10)}")
+print()
+print(f"The gcd of the {8} is : {math.gcd(64)}")
+print()

@@ -24,11 +24,13 @@ class ClassMethod:
     @classmethod 
     def change_class_variable(cls,name):
         cls.name=name
-    
+        
+        
     
     @classmethod
     def get_name(cls):
         print(cls.name)
+   
     
     
 

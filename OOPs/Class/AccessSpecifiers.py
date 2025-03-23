@@ -41,6 +41,7 @@ Protected Access Modifier:
    -Popularly, a single underscore “_” is used to describe a protected data member or method of the class.
    -Note that the python interpreter does not treat it as protected data like other languages, it is only denoted for the programmers since they would be trying to access it using plain name instead of calling it using the respective prefix. 
    For example,
+   -It is convension that it can access outside of the class.
 
 '''
 
@@ -70,6 +71,7 @@ class Protected:
 
 protect=Protected("Abhi",22,"BIET")
 protect.get_info()
+
 # protect(protect._name) #TypeError: 'Protected' object is not callable [can access inside the class and subclass]
 
 
@@ -103,3 +105,5 @@ class Private:
 private=Private("Abhi",22,"BIET")
 private.get_info()
 # print(private.__name)AttributeError: 'Private' object has no attribute '__name'
+
+#we can use this to access 

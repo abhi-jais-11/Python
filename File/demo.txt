@@ -1,3 +1,0 @@
-Binary data is not encoded as text, and using binary write mode  ensures that the file content is handled as raw bytes.
-Python allows you to write to a file in binary mode. 
-When dealing with non-text data (e.g., images, audio, or other binary data).

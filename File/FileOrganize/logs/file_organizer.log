@@ -1,0 +1,7 @@
+2025-03-25 16:24:57,499 - INFO - Created folder: C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Documents
+2025-03-25 16:24:57,500 - INFO - Created folder: C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Image
+2025-03-25 16:24:57,501 - INFO - Created folder: C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Language
+2025-03-25 16:24:57,501 - INFO - Created folder: C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Archive
+2025-03-25 16:24:57,502 - INFO - Created folder: C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Video
+2025-03-25 16:24:57,503 - INFO - No category for file_categories.json, leaving in place.
+2025-03-25 16:24:57,504 - INFO - Moved organize.py to C:\Users\abhij\Desktop\Git\Python\File\FileOrganize\Language\organize.py

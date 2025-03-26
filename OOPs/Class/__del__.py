@@ -3,7 +3,7 @@ Destructors:
     -Destructors are called when an objectct gets destroyed.
     -In python destructors are not nedded as much as in c++.
     -python has the garbage collectorthat handles memory management.
-    
+    nn nnn 
 The __del__() :
         -Method is know as a destructor method in Python .
         - It called when all references to the object have been deleted.

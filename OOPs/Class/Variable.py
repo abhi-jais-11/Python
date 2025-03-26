@@ -17,7 +17,7 @@ By using instance methods.
 By using object name
 '''
 
-class IncetanceVarible:
+class IncetanceVariable:
     
     def __init__(self,id,name,age):
         self.id=id
@@ -38,7 +38,7 @@ class IncetanceVarible:
         
         
 
-InstanceVar=IncetanceVarible(3,"jacksone",23)
+InstanceVar=IncetanceVariable(3,"jacksone",23)
 InstanceVar.instance_method(3,"jacksone",23)
 iv=InstanceVar
 iv.id=4
@@ -48,7 +48,6 @@ print(f"Instance Varibale Using Object  :\nid:{iv.id}\nName:{iv.name}\nAge:{iv.a
 print('-------------------------------')
 print("Accessing  the Inctance Varibale")
 print(f"Instance Varibale Using Object  :\nid:{iv.id}\nName:{iv.name}\nAge:{iv.age}")
-iv.instance_method(4,"Rahul",26)
 
 
 

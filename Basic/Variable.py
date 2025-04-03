@@ -77,7 +77,8 @@ print(x,y)
 
 '''
 Delete a Variable Using del Keyword
-We can remove a variable from the namespace using the del keyword. This effectively deletes the variable and frees up the memory it was using.
+We can remove a variable from the namespace using the del keyword.
+This effectively deletes the variable and frees up the memory it was using.
 
 '''
 # Assigning value to variable
@@ -85,6 +86,59 @@ x = 10
 print(x) 
 
 # Removing the variable using del
-del x
+# del x
 
 print(x) # NameError: name 'X' is not defined
+
+
+'''
+
+Scope of the variable?
+    -There are two methods how we define scope of a variable in python which are local and global.
+
+1.Local  Varianle
+2.Global Variable
+
+'''
+print("------------------------------Scope of varibale ---------------------------------")
+'''
+1.Local Variable :
+    - If a varibale define iside the function or block  called the local variable.
+    - It can access only iside the function or block .
+    - It will give an error when i am accessing outside of the function.
+'''
+def function():
+    local_variable="Local Variable"
+    print(local_variable)
+
+function()
+# print(local_variable)  NameError: name 'local_variable' is not defined.
+
+
+'''
+2.Global Variable
+    - Variables defined outside any function are global and can be accessed inside functions and overall file.
+'''
+
+global_variable="Global Variable"
+
+def function_Global():
+    print("Inside The function",global_variable)
+
+function_Global()
+print("Outside of the function",global_variable)
+
+
+'''
+How to convert a local variable into global varibale?
+    - we can use global keyword to convert local varibale into global .
+
+'''
+
+def local_to_global_varibale():
+    global name
+    name="Local And Global "
+    print("Inside the function",name)
+    
+local_to_global_varibale()
+print("Outside the function",name)
